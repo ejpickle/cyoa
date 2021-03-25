@@ -1,0 +1,47 @@
+{
+    "A": {
+        "entry":"You enter a dark room. To the west is a small grotto with the remains of a door hanging open.",
+        "north": "",
+        "east": "",
+        "south": "",
+        "west": "B"
+    },
+    "B": {
+        "entry":"You enter the grotto. There is a unicorn picking its nose and attempting to eat the rainbow boogers.",
+        "north": "C",
+        "east": "A",
+        "south": "",
+        "west": ""
+    },
+    "C": {
+        "entry":"You enter a place with a sign that says that you should go back, but to the north is a really nice-looking door that says come in if you dare",
+        "north": "D",
+        "east": "",
+        "south": "B",
+        "west": ""
+    },
+    "D": {
+        "north": "",
+        "east": "E",
+        "south": "C",
+        "west": ""
+    },
+    "E": {
+        "north": "F",
+        "east": "G",
+        "south": "",
+        "west": "D"
+    },
+    "F": {
+        "north": "",
+        "east": "",
+        "south": "E",
+        "west": ""
+    },
+    "G": {
+        "north": "",
+        "east": "",
+        "south": "",
+        "west": "E"
+    }
+}
